@@ -1,3 +1,148 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    color: #575757;
+}
+h2{
+    font-size: 40px;
+    color: #676767;
+}
+.flexible-container{
+    display: table;
+    width: 100%;
+}
+.first-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.highlight-word{
+    color: #FBA24F;
+}
+.first-section p{
+    color: #828282;
+    margin-bottom: 70px;
+}
+.button-style{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    padding: 20px 35px;
+    border-radius: 100px;
+    
+}
+.half-width{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    vertical-align: middle;
+    display: table-cell;
+}
+.half-width img{
+    width: 80%;
+}
+.second-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-position: left;
+}
+.second-section img{
+    width: 65%;
+}
+.second-section p{
+    margin-bottom: 70px;
+}
+.no-padding-bottom{
+    padding-top: 5%;
+}
+.recipes-box{
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+.recipes-box img{
+    width: 100%;
+}
+.third-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.flexible-div{
+    display: flex;
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+.fourth-section{
+    margin-top: 100px;
+    background-image: url(images/shapes/Banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.process-box{
+    width: 30%;
+    background-color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+.process-box img{
+    width: 100%;
+}
+#faq{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: #FBA24F;
+    font-weight: 600;
+}
+.last-section{
+    background-color: #8bc9a8;
+    
+}
+.box{
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    align-items: center;
+    padding-left: 350px;
+}
+.image-box{
+    display: table-cell;
+    height: 500px;
+    width: 50%;
+    background-image: url(images/food/july-box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ul{
+    margin-bottom: 50px;
+}
+#white{
+    color: white;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 80px;
+    
 }
